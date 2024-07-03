@@ -7,3 +7,10 @@ Matrikelnummer: 22202466
 # Link to Github
 
 https://github.com/Patrick2052/thd-chatbot-abgabe
+
+
+# unzip linux
+
+```
+unzip ./abgabe.zip -d ./abgabe
+```

@@ -1,0 +1,316 @@
+{
+    "intents": {
+            "check-in": {
+                "name": "check-in",
+                "text": [
+                    "I can help you with check-in. Please provid me with the necessary information."
+                ],
+                "keywords": [
+                    "check-in",
+                    "check-out",
+                    "check",
+                    "arrive",
+                    "arrival",
+                    "register",
+                    "hotel",
+                    "front desk",
+                    "front"
+                ],
+                "enteties": [
+                    "booking-number",
+                    "first-name",
+                    "last-name"
+                ]
+            },
+            "check-out": {
+                "name": "check-out",
+                "text": [
+                    "you want to check out?"
+                ],
+                "keywords": [
+                    "check-out",
+                    "checkout",
+                    "check out",
+                    "leave",
+                    "depart",
+                    "exit",
+                    "leaving",
+                    "departure",
+                    "end stay",
+                    "vacate",
+                    "room release",
+                    "bill settlement",
+                    "settle bill",
+                    "complete stay",
+                    "finish stay",
+                    "leaving hotel",
+                    "check-out process",
+                    "check-out time"
+                    ],
+                "enteties": [
+                    "room-number",
+                    "check-out-time"
+                ]
+            },
+            "wake-up-call": {
+                "name": "wake-up-call",
+                "text": [
+                    "you want to schedule a wake up call?"
+                ],
+                "keywords": [
+                    "wake", "waking", "call", "alarm", "wake me up"
+                ],
+                "enteties": [
+                    "room-number",
+                    "wake-up-time"
+                ]
+            },
+            "tourist": {
+                "name": "tourist",
+                "text": [
+                    "Do you want to get consulted on visiting a tourist destination?"
+                ],
+                "keywords": [
+                    "tourist",
+                    "visit",
+                    "sight",
+                    "sightseeing",
+                    "city",
+                    "street",
+                    "travel",
+                    "explore",
+                    "adventure",
+                    "destination",
+                    "attraction",
+                    "landmark",
+                    "museum",
+                    "gallery",
+                    "park",
+                    "tour",
+                    "excursion",
+                    "guide",
+                    "historical",
+                    "cultural",
+                    "nature",
+                    "scenic",
+                    "hiking",
+                    "walking tour",
+                    "local cuisine",
+                    "festival",
+                    "event",
+                    "accommodation",
+                    "itinerary",
+                    "trip planning",
+                    "vacation",
+                    "holiday",
+                    "getaway",
+                    "expedition",
+                    "journey",
+                    "discovery"
+                ],
+                "enteties": [
+                    "location",
+                    "travel-date",
+                    "appointment-time"
+                ]
+            },
+            "facilities": {
+                "name": "facilities",
+                "text": [
+                    "So you want to know about the Hotels facilities?"
+                ],
+                "keywords": [
+                    "facilities",
+                    "services",
+                    "hotel",
+                    "amenities",
+                    "pool",
+                    "spa",
+                    "gym",
+                    "fitness center",
+                    "restaurant",
+                    "bar",
+                    "lounge",
+                    "parking",
+                    "valet parking",
+                    "WiFi",
+                    "internet access",
+                    "room service",
+                    "concierge",
+                    "laundry",
+                    "dry cleaning",
+                    "meeting rooms",
+                    "conference facilities",
+                    "business center",
+                    "shuttle service",
+                    "airport shuttle",
+                    "pet friendly",
+                    "family friendly",
+                    "accessible facilities",
+                    "breakfast",
+                    "buffet",
+                    "view",
+                    "rooftop",
+                    "garden",
+                    "terrace",
+                    "childcare",
+                    "babysitting",
+                    "security",
+                    "safety deposit box",
+                    "non-smoking",
+                    "smoking area",
+                    "reception",
+                    "24-hour front desk",
+                    "luggage storage"
+                ],
+                "enteties": [
+                    "facility"
+                ]
+            },
+            "room-service": {
+                "name": "room-service",
+                "text": [
+                    "Of course i can get you room service!"
+                ],
+                "keywords": [
+                    "room", "service", "room service", "food", "drink", "snack", "meal", "beverage", "menu", "order", "delivery", "breakfast", "lunch", "dinner", "late night", "24-hour", "24/7", "room dining", "in-room dining", "in-room service", "room delivery", "room menu", "room order", "room meal", "room beverage", "room snack", "room drink", "room food", "room breakfast", "room lunch", "room dinner", "room late night", "room 24-hour", "room 24/7"
+                ],
+                "enteties": [
+                    "room-number",
+                    "room-service-time",
+                    "meal"
+                ]
+            }
+    },
+    "enteties": {
+        "appointment-time": {
+            "name": "appointment-time",
+            "text": [
+                "Tell me the best time for your appointment with our travel experts."
+            ]
+        },
+        "travel-date": {
+            "name": "travel-date",
+            "text": [
+                "At which date would you like to travel?"
+            ]
+        },
+        "room-number": {
+            "name": "room-number",
+            "text": [
+                "Can you please tell me your room number?"
+            ]
+        },
+        "date": {
+            "name": "date",
+            "text": [
+                "Tell me the date."
+            ]
+        },
+        "time": {
+            "name": "time",
+            "text": [
+                "Tell me the time."
+            ]
+        },
+        "location": {
+            "name": "location",
+            "text": [
+                "Tell me the location"
+            ]
+        },
+        "boolean": {
+            "name": "boolean",
+            "text": [
+                "Yes or no?"
+            ]
+        },
+        "facility": {
+            "name": "facility",
+            "text": [
+                "Tell me the facility you want to know about. \n opitons include pool, spa, gym, fitness center, restaurant, bar, internet access"
+            ]
+        },
+        "meal": {
+            "name": "meal",
+            "text": [
+                "What kind of meal would you like to order?"
+            ]
+        },
+        "wake-up-time": {
+            "name": "wake-up-time",
+            "text": [
+                "Please tell me the time you would like to be woken up at."
+            ]
+        },
+        "check-out-time": {
+            "name": "check-out-time",
+            "text": [
+                "Please tell me the time you would like to check out at."
+            ]
+        },
+        "room-service-time": {
+            "name": "room-service-time",
+            "text": [
+                "Please tell me the time you would like to have your meal delivered."
+            ]
+        },
+        "first-name": {
+            "name": "first-name",
+            "text": [
+                "Please tell me your first name."
+            ]
+        },
+        "last-name": {
+            "name": "last-name",
+            "text": [
+                "Please tell me your last name."
+            ]
+        },
+        "booking-number": {
+            "name": "booking-number",
+            "text": [
+                "Please tell me your booking number."
+            ]
+        }
+    },
+    "phrases": {
+        "greeting": {
+            "name": "greeting",
+            "text": [
+                "Hello! How can I help you?",
+                "Hi! How can I help you?",
+                "Good day! How can I help you?",
+                "Good morning! How can I help you?",
+                "Good afternoon! How can I help you?",
+                "Good evening! How can I help you?"]
+        },
+        "goodbye": {
+            "name": "goodbye",
+            "text": [
+                "Goodbye! Have a nice day!",
+                "Goodbye! Have a nice stay!",
+                "Goodbye! Have a nice trip!",
+                "Goodbye! Have a nice vacation!",
+                "Goodbye! Have a nice holiday!",
+                "Goodbye! Have a nice journey!"
+            ]
+        },
+        "thanks": {
+            "name": "thanks",
+            "text": [
+                "Thank you!",
+                "Thanks!",
+                "Thank you very much!",
+                "Thanks a lot!",
+                "Thank you so much!",
+                "Thanks a million!",
+                "Thank you kindly!",
+                "Thanks a bunch!",
+                "Thank you very kindly!"
+            ]
+        }
+
+    }
+}
+

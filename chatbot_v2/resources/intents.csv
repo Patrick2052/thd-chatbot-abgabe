@@ -1,0 +1,903 @@
+intent,text
+wake-up-call,wake-up call
+wake-up-call,alarm
+wake-up-call,alarm clock
+wake-up-call,wake me up
+wake-up-call,wake up call
+wake-up-call,wake me up at
+wake-up-call,alarm at
+wake-up-call,alarm clock at
+wake-up-call,set an alarm
+wake-up-call,set a wake-up call
+wake-up-call,set an alarm for
+wake-up-call,set a wake-up call for
+wake-up-call,can you wake me up
+wake-up-call,can you set an alarm for
+wake-up-call,can you wake me up at
+wake-up-call,can you set a wake-up call for
+wake-up-call,make an alarm
+wake-up-call,make a wake-up call
+wake-up-call,create an alarm
+wake-up-call,create a wake-up call
+wake-up-call,put an alarm
+wake-up-call,put a wake-up call
+wake-up-call,start an alarm
+wake-up-call,start a wake-up call
+wake-up-call,begin an alarm
+wake-up-call,begin a wake-up call
+wake-up-call,trigger an alarm
+wake-up-call,trigger a wake-up call
+wake-up-call,wake me up early
+wake-up-call,set an early alarm
+wake-up-call,set a wake-up call for tomorrow
+wake-up-call,can you wake me up in the morning
+wake-up-call,can you set an alarm for 7 AM
+wake-up-call,can you wake me up at 6:30 AM
+wake-up-call,make sure I wake up on time
+wake-up-call,remind me to wake up at 8 AM
+wake-up-call,put an alarm for 9 AM
+wake-up-call,start a wake-up call at 7:30 AM
+wake-up-call,begin an alarm for 6 AM
+wake-up-call,trigger a wake-up call at 5:45 AM
+wake-up-call,set a recurring alarm for weekdays
+wake-up-call,set a wake-up call for every morning
+wake-up-call,can you wake me up at the same time every day
+wake-up-call,make an alarm for Monday
+wake-up-call,create a wake-up call for Tuesday
+wake-up-call,put an alarm for Wednesday
+wake-up-call,start an alarm for Thursday
+wake-up-call,begin a wake-up call for Friday
+wake-up-call,trigger an alarm for Saturday
+wake-up-call,set a wake-up call for Sunday
+wake-up-call,can you wake me up on weekdays
+wake-up-call,make sure I wake up on weekends
+wake-up-call,remind me to wake up early tomorrow
+wake-up-call,put an alarm for the next day
+wake-up-call,start an alarm for the following morning
+wake-up-call,begin a wake-up call for the upcoming day
+wake-up-call,trigger a wake-up call for the coming week
+wake-up-call,set a recurring alarm for the entire month
+wake-up-call,set a wake-up call for the next year
+wake-up-call,can you wake me up at a different time each day
+wake-up-call,make an alarm for a specific date
+wake-up-call,create a wake-up call for a special occasion
+wake-up-call,put an alarm for a one-time event
+wake-up-call,start an alarm for a specific day
+wake-up-call,begin a wake-up call for a particular time
+wake-up-call,trigger an alarm for a specific moment
+wake-up-call,set a wake-up call for an important meeting
+wake-up-call,can you wake me up before my flight
+wake-up-call,make sure I wake up for my appointment
+wake-up-call,remind me to wake up for my presentation
+wake-up-call,put an alarm for my early morning workout
+wake-up-call,start an alarm for my morning meditation
+wake-up-call,begin a wake-up call for my daily routine
+wake-up-call,trigger a wake-up call for my study session
+wake-up-call,set a wake-up call for my conference call
+wake-up-call,can you wake me up for my exam
+wake-up-call,make an alarm for my important deadline
+wake-up-call,create a wake-up call for my early shift
+wake-up-call,put an alarm for my morning commute
+wake-up-call,start an alarm for my sunrise photography
+wake-up-call,begin a wake-up call for my sunrise hike
+wake-up-call,trigger an alarm for my sunrise yoga session
+tourist,tourist
+tourist,tourism
+tourist,tourist attractions
+tourist,places to visit
+tourist,sightseeing
+tourist,tourist spots
+tourist,tourist information
+tourist,tourist guide
+tourist,tourist destinations
+tourist,tourist places
+tourist,tourist activities
+tourist,tourist sites
+tourist,tourist places to visit
+tourist,tourist places to see
+tourist,tourist places to go
+tourist,tourist places to explore
+tourist,tourist places to visit in
+tourist,tourist places to see in
+tourist,tourist places to go in
+tourist,tourist places to explore in
+tourist,top tourist attractions
+tourist,top places to visit
+tourist,top sightseeing spots
+tourist,popular tourist destinations
+tourist,popular places to visit
+tourist,popular places to see
+tourist,popular tourist spots
+tourist,must-see places
+tourist,must-visit places
+tourist,must-go places
+tourist,must-explore places
+tourist,best tourist spots
+tourist,best tourist destinations
+tourist,best places to visit
+tourist,best places to see
+tourist,best places to go
+tourist,best places to explore
+tourist,what landmarks are there
+tourist,landmarks to visit
+tourist,landmarks to see
+tourist,landmarks to explore
+tourist,places to visit in the city
+tourist,attractions to explore
+tourist,landmarks to discover
+tourist,hidden gems to see
+tourist,scenic spots to visit
+tourist,cultural sites to explore
+tourist,historical places to visit
+tourist,natural wonders to see
+tourist,parks to explore
+tourist,museums to visit
+tourist,gardens to discover
+tourist,beaches to relax at
+tourist,mountains to hike
+tourist,lakes to visit
+tourist,islands to explore
+tourist,zoos to visit
+tourist,aquariums to discover
+tourist,botanical gardens to see
+tourist,castles to visit
+tourist,monuments to explore
+tourist,places to see
+tourist,sites to visit
+tourist,sightseeing spots
+tourist,travel spots
+tourist,travel destinations
+tourist,top travel spots
+tourist,top travel destinations
+tourist,top places to see
+tourist,top places to explore
+tourist,places to travel
+tourist,places to travel to
+tourist,travel attractions
+tourist,travel information
+tourist,travel guide
+tourist,travel sites
+tourist,travel activities
+tourist,tourist events
+tourist,tourist experiences
+tourist,holiday destinations
+tourist,vacation spots
+tourist,vacation destinations
+tourist,vacation activities
+tourist,holiday activities
+tourist,holiday spots
+tourist,places to holiday
+tourist,places to vacation
+tourist,top holiday spots
+tourist,top vacation spots
+tourist,holiday attractions
+tourist,vacation attractions
+tourist,tourist highlights
+tourist,travel highlights
+tourist,travel hotspots
+tourist,holiday hotspots
+tourist,visit the city
+tourist,recommended vacation destinations
+tourist,recommended vacation attractions
+tourist,highly-rated tourist spots
+tourist,highly-rated tourist attractions
+tourist,highly-rated travel destinations
+tourist,highly-rated travel attractions
+tourist,highly-rated holiday destinations
+tourist,highly-rated holiday attractions
+tourist,highly-rated vacation destinations
+tourist,highly-rated vacation attractions
+tourist,exciting tourist spots
+tourist,exciting tourist attractions
+tourist,exciting travel destinations
+tourist,exciting travel attractions
+tourist,exciting holiday destinations
+tourist,exciting holiday attractions
+tourist,exciting vacation destinations
+tourist,exciting vacation attractions
+tourist,hidden tourist spots
+tourist,hidden tourist attractions
+tourist,hidden travel destinations
+tourist,hidden travel attractions
+tourist,hidden holiday destinations
+tourist,hidden holiday attractions
+tourist,hidden vacation destinations
+tourist,hidden vacation attractions
+tourist,off-the-beaten-path tourist spots
+tourist,off-the-beaten-path tourist attractions
+tourist,off-the-beaten-path travel destinations
+tourist,off-the-beaten-path travel attractions
+tourist,off-the-beaten-path holiday destinations
+tourist,off-the-beaten-path holiday attractions
+tourist,off-the-beaten-path vacation destinations
+tourist,off-the-beaten-path vacation attractions
+tourist,unique tourist spots
+tourist,unique tourist attractions
+tourist,unique travel destinations
+tourist,unique travel attractions
+tourist,unique holiday destinations
+tourist,unique holiday attractions
+tourist,unique vacation destinations
+tourist,unique vacation attractions
+tourist,local tourist spots
+tourist,local tourist attractions
+tourist,local travel destinations
+tourist,local travel attractions
+tourist,local holiday destinations
+tourist,local holiday attractions
+tourist,local vacation destinations
+tourist,local vacation attractions
+tourist,vacation highlights
+tourist,vacation hotspots
+tourist,places to go sightseeing
+tourist,places to explore on vacation
+tourist,places to visit on holiday
+tourist,places to visit during vacation
+tourist,places to see while traveling
+tourist,top tourist highlights
+tourist,top holiday highlights
+tourist,top vacation highlights
+tourist,popular travel highlights
+tourist,popular holiday highlights
+tourist,popular vacation highlights
+tourist,best places for tourists
+tourist,best travel experiences
+tourist,best tourist experiences
+tourist,best holiday experiences
+tourist,best vacation experiences
+tourist,best travel highlights
+tourist,must-see travel spots
+tourist,what attractions does the city offer
+tourist,must-visit travel spots
+tourist,must-go travel spots
+tourist,must-explore travel spots
+tourist,must-see holiday spots
+tourist,must-visit holiday spots
+tourist,must-go holiday spots
+tourist,must-explore holiday spots
+tourist,must-see vacation spots
+tourist,must-visit vacation spots
+tourist,must-go vacation spots
+tourist,must-explore vacation spots
+tourist,famous tourist spots
+tourist,famous tourist attractions
+tourist,famous travel destinations
+tourist,famous travel attractions
+tourist,famous holiday destinations
+tourist,famous holiday attractions
+tourist,famous vacation destinations
+tourist,famous vacation attractions
+tourist,notable tourist spots
+tourist,notable tourist attractions
+tourist,notable travel destinations
+tourist,notable travel attractions
+tourist,notable holiday destinations
+tourist,notable holiday attractions
+tourist,notable vacation destinations
+tourist,notable vacation attractions
+tourist,top-rated tourist spots
+tourist,top-rated tourist attractions
+tourist,top-rated travel destinations
+tourist,top-rated travel attractions
+tourist,top-rated holiday destinations
+tourist,top-rated holiday attractions
+tourist,top-rated vacation destinations
+tourist,top-rated vacation attractions
+tourist,favorite tourist spots
+tourist,favorite tourist attractions
+tourist,favorite travel destinations
+tourist,favorite travel attractions
+tourist,favorite holiday destinations
+tourist,favorite holiday attractions
+tourist,favorite vacation destinations
+tourist,favorite vacation attractions
+tourist,recommended tourist spots
+tourist,recommended tourist attractions
+tourist,recommended travel destinations
+tourist,recommended travel attractions
+tourist,recommended holiday destinations
+tourist,recommended holiday attractions
+tourist,recommended vacation destinations
+tourist,recommended vacation attractions
+tourist,essential tourist spots
+tourist,essential tourist attractions
+tourist,essential travel destinations
+tourist,essential travel attractions
+tourist,essential holiday destinations
+tourist,essential holiday attractions
+tourist,essential vacation destinations
+tourist,essential vacation attractions
+tourist,can't-miss tourist spots
+tourist,can't-miss tourist attractions
+tourist,can't-miss travel destinations
+tourist,can't-miss travel attractions
+tourist,can't-miss holiday destinations
+tourist,can't-miss holiday attractions
+tourist,can't-miss vacation destinations
+tourist,can't-miss vacation attractions
+tourist,iconic tourist spots
+tourist,iconic tourist attractions
+tourist,iconic travel destinations
+tourist,iconic travel attractions
+tourist,iconic holiday destinations
+tourist,iconic holiday attractions
+tourist,iconic vacation destinations
+tourist,iconic vacation attractions
+facilities,facilities
+facilities,amenities
+facilities,services
+facilities,hotel facilities
+facilities,hotel amenities
+facilities,hotel services
+facilities,what facilities does the hotel have
+facilities,what amenities does the hotel have
+facilities,what services does the hotel offer
+facilities,what facilities are available
+facilities,what amenities are available
+facilities,what services are provided
+facilities,what facilities are there
+facilities,what amenities are there
+facilities,what services are included
+facilities,what facilities does the hotel provide
+facilities,what amenities does the hotel provide
+facilities,what services does the hotel include
+facilities,available facilities
+facilities,available amenities
+facilities,available services
+facilities,hotel services available
+facilities,hotel facilities available
+facilities,hotel amenities available
+facilities,does the hotel have a gym
+facilities,does the hotel have a pool
+facilities,does the hotel have a spa
+facilities,does the hotel have a restaurant
+facilities,does the hotel have a bar
+facilities,does the hotel have a business center
+facilities,does the hotel have wifi
+facilities,does the hotel have parking
+facilities,does the hotel have room service
+facilities,does the hotel have laundry service
+facilities,does the hotel have a fitness center
+facilities,does the hotel have a shuttle service
+facilities,does the hotel have a concierge service
+facilities,does the hotel have a lounge
+facilities,does the hotel have meeting rooms
+facilities,does the hotel have conference facilities
+facilities,does the hotel have breakfast
+facilities,does the hotel have a breakfast buffet
+facilities,does the hotel have a coffee shop
+facilities,does the hotel have pet-friendly rooms
+facilities,does the hotel have a children's play area
+facilities,does the hotel have a babysitting service
+facilities,does the hotel have an airport shuttle
+facilities,does the hotel have a car rental service
+facilities,what facilities are in the hotel
+facilities,what amenities are in the hotel
+facilities,what services are in the hotel
+facilities,what facilities can I use
+facilities,what amenities can I use
+facilities,what services can I use
+facilities,does the hotel provide a gym
+facilities,does the hotel provide a pool
+facilities,does the hotel provide a spa
+facilities,does the hotel provide a restaurant
+facilities,does the hotel provide a bar
+facilities,does the hotel provide a business center
+facilities,does the hotel provide wifi
+facilities,does the hotel provide parking
+facilities,does the hotel provide room service
+facilities,does the hotel provide laundry service
+facilities,does the hotel provide a fitness center
+facilities,does the hotel provide a shuttle service
+facilities,does the hotel provide a concierge service
+facilities,does the hotel provide a lounge
+facilities,does the hotel provide meeting rooms
+facilities,does the hotel provide conference facilities
+facilities,does the hotel provide breakfast
+facilities,does the hotel provide a breakfast buffet
+facilities,does the hotel provide a coffee shop
+facilities,does the hotel provide pet-friendly rooms
+facilities,does the hotel provide a children's play area
+facilities,does the hotel provide a babysitting service
+facilities,does the hotel provide an airport shuttle
+facilities,does the hotel provide a car rental service
+facilities,car rental
+facilities,airport shuttle
+facilities,children's play area
+facilities,babysitting service
+facilities,does the hotel have a pool
+facilities,does the hotel have a gym
+facilities,Does the hotel offer room service?
+facilities,Is there a spa available at the hotel?
+facilities,Can guests use a fitness center during their stay?
+facilities,Is there a business center available for guest use?
+facilities,Does the hotel have a swimming pool?
+facilities,Are there any meeting rooms available for conferences?
+facilities,Does the hotel provide laundry services?
+facilities,Is there a restaurant on-site?
+facilities,Does the hotel have a bar or lounge?
+facilities,Is free Wi-Fi available in the rooms?
+facilities,Does the hotel offer parking facilities?
+facilities,Are pets allowed in the hotel?
+facilities,Is there a concierge service available?
+facilities,Does the hotel offer any family-friendly facilities?
+facilities,Are there facilities for disabled guests?
+facilities,Does the hotel provide a shuttle service to local attractions?
+facilities,Is there a rooftop terrace or garden?
+facilities,Does the hotel offer bicycle rental services?
+facilities,Is there an on-site coffee shop or café?
+facilities,Does the hotel provide a safe in the rooms?
+facilities,Are there any wellness facilities like a sauna or steam room?
+facilities,Does the hotel offer luggage storage services?
+facilities,Is there a 24-hour front desk?
+facilities,Does the hotel have a gift shop or newsstand?
+facilities,Are there any special amenities for VIP guests?
+facilities,Does the hotel have a library or reading room?
+facilities,where is the gym
+facilities,where is the pool
+facilities,where is the spa
+facilities,where is the restaurant
+facilities,restaurant hours
+facilities,where is the bar
+facilities,bar hours
+facilities,can you babysit
+facilities,where is the sauna
+facilities,where is the steam room
+facilities,do you have a sauna
+facilities,sauna
+facilities,car rental
+facilities,can i rent a car
+facilities,can you rent a car
+facilities,call me a cab
+check-in,check-in
+check-in,check in
+check-in,check-in time
+check-in,check in time
+check-in,check-in procedure
+check-in,i want to check in
+check-in,i need to check in
+check-in,i want to check in at
+check-in,i have just arrived
+check-in,i am here
+check-in,i am at the hotel
+check-in,i am at the front desk
+check-in,i am ready to check in
+check-in,i am checking in
+check-in,i am checking in at
+check-in,i want to go to my room
+check-in,i need to go to my room
+check-in,i want to get my key
+check-in,check in
+check-in,check-in time
+check-in,check in time
+check-in,check-in procedure
+check-in,i want to check in
+check-in,i need to check in
+check-in,i want to check in at
+check-in,i have just arrived
+check-in,i am here
+check-in,i am at the hotel
+check-in,i am at the front desk
+check-in,i am ready to check in
+check-in,i am checking in
+check-in,i am checking in at
+check-in,i want to go to my room
+check-in,i need to go to my room
+check-in,i want to get my key
+check-in,i need my key
+check-in,can I check in
+check-in,can I check in at
+check-in,may I check in
+check-in,may I check in at
+check-in,when is check-in time
+check-in,when can I check in
+check-in,where do I check in
+check-in,where is check-in
+check-in,how do I check in
+check-in,how can I check in
+check-in,what is the check-in process
+check-in,what is the check-in procedure
+check-in,help me check in
+check-in,assist me with check-in
+check-in,check in please
+check-in,check in now
+check-in,checking in now
+check-in,I'm checking in now
+check-in,I'm ready to check in
+check-in,I'm ready to check in at
+check-in,I'm at the check-in desk
+check-in,I have arrived
+check-in,I've arrived at the hotel
+check-in,I've arrived at the front desk
+check-in,arriving for check-in
+check-in,checking in for my room
+check-in,I'm here for check-in
+check-in,I'm here to check in
+check-in,ready to check in
+check-in,ready to check in at
+check-in,here to check in
+check-in,here to check in at
+check-in,let me check in
+check-in,let me check in at
+check-in,checking in for my stay
+check-in,checking in for my reservation
+check-in,I have a reservation
+check-in,I need to check in now
+check-in,I want to check in now
+check-in,I need to check in at
+check-in,please check me in
+check-in,please check me in at
+check-in,time to check in
+check-in,time to check in at
+check-in,can I get my room key
+check-in,where do I get my room key
+check-in,how do I get my room key
+check-in,need to check in
+check-in,need to check in at
+check-in,need to get my key
+check-in,need to get my room key
+check-in,check-in assistance
+check-in,check-in help
+check-in,check-in support
+check-in,check-in service
+check-in,requesting check-in
+check-in,requesting to check in
+check-in,requesting my room key
+check-in,requesting to get my key
+check-in,about to check in
+check-in,about to check in at
+check-in,getting ready to check in
+check-in,getting ready to check in at
+check-in,at the check-in counter
+check-in,at the check-in desk
+check-in,going to check in
+check-in,going to check in at
+check-in,going to get my key
+check-in,going to get my room key
+check-in,waiting to check in
+check-in,waiting to check in at
+check-in,waiting for check-in
+check-in,waiting for my key
+check-in,waiting for my room key
+check-in,waiting at the front desk
+check-in,waiting at the check-in desk
+check-in,waiting at the check-in counter
+check-in,arrived for check-in
+check-in,arrived to check in
+check-in,arrived to get my key
+check-in,arrived to get my room key
+check-out,check out
+check-out,check-out time
+check-out,check out time
+check-out,check-out procedure
+check-out,i want to check out
+check-out,i need to check out
+check-out,i want to check out now
+check-out,i have to check out
+check-out,i am leaving
+check-out,i am leaving the hotel
+check-out,i am at the front desk
+check-out,i am ready to check out
+check-out,i am checking out
+check-out,i am checking out now
+check-out,i want to leave my room
+check-out,i need to leave my room
+check-out,i want to return my key
+check-out,i need to return my key
+check-out,can I check out
+check-out,can I check out now
+check-out,may I check out
+check-out,may I check out now
+check-out,when is check-out time
+check-out,when do I check out
+check-out,where do I check out
+check-out,where is check-out
+check-out,how do I check out
+check-out,how can I check out
+check-out,what is the check-out process
+check-out,what is the check-out procedure
+check-out,help me check out
+check-out,assist me with check-out
+check-out,check out please
+check-out,check out now
+check-out,checking out now
+check-out,I'm checking out now
+check-out,I'm ready to check out
+check-out,I'm ready to check out now
+check-out,I'm at the check-out desk
+check-out,I am leaving now
+check-out,I've packed up
+check-out,I've packed my bags
+check-out,getting ready to check out
+check-out,getting ready to leave
+check-out,leaving my room
+check-out,leaving the hotel
+check-out,leaving the premises
+check-out,returning my key
+check-out,returning my room key
+check-out,ready to check out
+check-out,ready to check out now
+check-out,here to check out
+check-out,here to check out now
+check-out,let me check out
+check-out,let me check out now
+check-out,checking out of my room
+check-out,checking out of the hotel
+check-out,I have a late check-out
+check-out,I need to check out now
+check-out,I want to check out now
+check-out,I need to check out soon
+check-out,please check me out
+check-out,please check me out now
+check-out,time to check out
+check-out,time to check out now
+check-out,can I get my bill
+check-out,where do I pay my bill
+check-out,how do I pay my bill
+check-out,need to check out
+check-out,need to check out now
+check-out,need to return my key
+check-out,need to return my room key
+check-out,check-out assistance
+check-out,check-out help
+check-out,check-out support
+check-out,check-out service
+check-out,requesting check-out
+check-out,requesting to check out
+check-out,requesting my bill
+check-out,requesting to return my key
+check-out,about to check out
+check-out,about to check out now
+check-out,getting ready to check out
+check-out,getting ready to leave now
+check-out,at the check-out counter
+check-out,at the check-out desk
+check-out,going to check out
+check-out,going to check out now
+check-out,going to return my key
+check-out,going to return my room key
+check-out,waiting to check out
+check-out,waiting to check out now
+check-out,waiting for check-out
+check-out,waiting to pay my bill
+check-out,waiting to return my key
+check-out,waiting at the front desk
+check-out,waiting at the check-out desk
+check-out,waiting at the check-out counter
+check-out,ready to leave
+check-out,ready to leave now
+check-out,leaving soon
+check-out,checking out soon
+check-out,leaving shortly
+room-service,Order me a coffee
+room-service,Is 24-hour room service available at the hotel?
+room-service,Can I order food to my room at any time of the day?
+room-service,Does the hotel offer breakfast in bed?
+room-service,Are there any charges for room service?
+room-service,What kind of menu is available for room service?
+room-service,How do I place an order for room service?
+room-service,Is there a limit to how many times I can use room service?
+room-service,Does room service include options for dietary restrictions?
+room-service,Can I request custom meals through room service?
+room-service,Is there a special menu for children available through room service?
+room-service,How long does it typically take for room service to deliver an order?
+room-service,Can I order alcoholic beverages through room service?
+room-service,Is there a minimum order amount for room service?
+room-service,Are there any overnight room service options available?
+room-service,Can room service accommodate large orders or special requests?
+room-service,What are the room service hours?
+room-service,Is there a room service menu in my room?
+room-service,Can I get room service late at night?
+room-service,What is the phone number for room service?
+room-service,Can I order room service online?
+room-service,Does the hotel provide vegetarian room service options?
+room-service,Is room service included in the room rate?
+room-service,Can I pay for room service with my room card?
+room-service,Does the hotel offer gluten-free options for room service?
+room-service,Can I schedule room service for a specific time?
+room-service,Is there a service charge for room service?
+room-service,Can I get dessert through room service?
+room-service,Is breakfast included with room service?
+room-service,Are there vegan options available for room service?
+room-service,Can I order snacks through room service?
+room-service,How do I find the room service menu?
+room-service,Is there a kids menu for room service?
+room-service,What are the delivery times for room service?
+room-service,Can I get coffee delivered to my room?
+room-service,Are there healthy options on the room service menu?
+room-service,Can I order a meal plan through room service?
+room-service,Is room service available during holidays?
+room-service,Can I request room service for a specific dietary need?
+room-service,Does room service offer a breakfast buffet?
+room-service,Can I order pizza through room service?
+room-service,Does room service offer local cuisine?
+room-service,Can I order room service if I'm not staying at the hotel?
+room-service,Is there an app for ordering room service?
+room-service,Can room service deliver outside the hotel premises?
+room-service,Is there an additional fee for room service at night?
+room-service,Can I order bottled water through room service?
+room-service,Does room service offer family-style meals?
+room-service,Is there a discount for bulk room service orders?
+room-service,Can I request no-contact delivery for room service?
+room-service,Are there any special room service packages available?
+room-service,Can I customize my order with room service?
+room-service,How do I cancel a room service order?
+room-service,Does room service offer allergy-friendly options?
+room-service,Can I get a receipt for my room service order?
+room-service,Are there any seasonal specials on the room service menu?
+room-service,Can I order room service in advance?
+room-service,Is there a charge for delivery to the room with room service?
+room-service,Can I request extra napkins or utensils with room service?
+room-service,Is there a breakfast menu available for room service?
+room-service,Does room service offer late-night snacks?
+room-service,Can I order room service for a group meeting?
+room-service,Are there any promotions or discounts for room service?
+room-service,Can I get a room service menu in another language?
+room-service,Does room service include beverages?
+room-service,Can I order room service for an early morning meeting?
+room-service,Is there a surcharge for large room service orders?
+room-service,Can I request room service for a specific time of day?
+room-service,Can I order room service after check-out?
+room-service,Are there any kids' meals available through room service?
+room-service,Does room service offer fresh fruit?
+room-service,Can I order room service for a special occasion?
+room-service,Are there any vegan options on the room service menu?
+room-service,Can I order room service during peak hours?
+room-service,How do I pay for room service?
+room-service,Can I get a room service menu at the front desk?
+room-service,Does the hotel have a 24-hour room service hotline?
+room-service,Can I request extra condiments with room service?
+room-service,Can I get a refund for a room service order?
+room-service,Does room service offer a variety of cuisines?
+room-service,Is room service available for breakfast lunch and dinner?
+room-service,Can I request a specific delivery time for room service?
+room-service,Are there any discounts for frequent room service orders?
+room-service,Can I order room service if I have a food allergy?
+room-service,Does room service offer children's meals?
+room-service,Is there a vegetarian room service menu?
+room-service,Can I get room service delivered to the pool area?
+room-service,Are there any low-carb options available through room service?
+room-service,Can I order room service for a business meeting?
+room-service,Are there any specials or deals on the room service menu?
+room-service,Can I get my room service order customized?
+room-service,Is there a room service menu available online?
+room-service,Can I order room service through the hotel’s mobile app?
+room-service,Are there any premium options available through room service?
+room-service,Can I request room service at a specific time?
+room-service,Does the hotel offer room service for lunch?
+room-service,Can I get ice cream delivered to my room?
+room-service,Are there any late-night room service options?
+room-service,Can I get room service on weekends?
+room-service,Is there a minimum spend for room service?
+room-service,Can I order room service using my rewards points?
+room-service,Does room service offer freshly squeezed juices?
+room-service,Can I get breakfast in bed through room service?
+room-service,Are there gluten-free room service options?
+room-service,Can I order room service if I'm not a hotel guest?
+room-service,Is there a loyalty program for room service orders?
+room-service,Can I get a special occasion cake through room service?
+room-service,Are there any organic options on the room service menu?
+room-service,Can I request a wake-up call with my room service order?
+room-service,Does room service offer holiday specials?
+room-service,Can I get a room service order customized for dietary restrictions?
+room-service,Is there a separate kids menu for room service?
+room-service,Can I order room service to the conference room?
+room-service,Are there any room service options for vegetarians?
+room-service,I want to order food
+room-service,I want to order room service
+room-service,I want to order food to my room
+room-service,I want to order room service to my room
+room-service,I want to order breakfast
+room-service,I want to order lunch
+room-service,I want to order dinner
+room-service,I want to order a meal
+room-service,I want to order a snack
+room-service,I want to order a drink
+room-service,I want to order a coffee
+room-service,I want to order a tea
+room-service,I want to order a sandwich
+room-service,I want to order a salad
+room-service,I want to order a burger
+room-service,I want to order a pizza
+room-service,I want to order a pasta
+room-service,I want to order a dessert
+room-service,Can you customize my room service order for my dietary needs?
+room-service,Do you have a kids' menu available through room service?
+room-service,Is it possible to get room service in the conference room?
+room-service,Do you offer vegetarian options in room service?
+room-service,How can I place a food order?
+room-service,Could I get room service please?
+room-service,Is food delivery to the room available?
+room-service,Can I have room service brought to my room?
+room-service,What’s the procedure to order breakfast?
+room-service,Can I get lunch served to my room?
+room-service,Do you serve dinner through room service?
+room-service,How can I request a meal?
+room-service,Can I order a light snack?
+room-service,Is it possible to get a drink via room service?
+room-service,How do I order coffee to my room?
+room-service,Can I have tea delivered to my room?
+room-service,Can I get a sandwich through room service?
+room-service,Do you offer salads for room service?
+room-service,How do I order a burger to my room?
+room-service,Is pizza available via room service?
+room-service,Can I order pasta for my room?
+room-service,Are desserts included in the room service menu?
+room-service,Can I customize my food order?
+room-service,Do you cater to kids with room service?
+room-service,Can food be delivered to the conference room?
+room-service,Is there a vegetarian menu available?
+room-service,I’d like to get some food how do I do that?
+room-service,What’s the process for ordering room service?
+room-service,How do I get food delivered to my room?
+room-service,Can you send room service to my room?
+room-service,Is breakfast available through room service?
+room-service,How do I order lunch to my room?
+room-service,Is dinner served through room service?
+room-service,How can I get a meal delivered?
+room-service,Can I get a quick snack via room service?
+room-service,How do I order drinks to my room?
+room-service,Is it possible to get a coffee delivered?
+room-service,Can tea be delivered to my room?
+room-service,How do I order a sandwich through room service?
+room-service,Can you deliver a salad to my room?
+room-service,Is it possible to get a burger via room service?
+room-service,Can I have pizza brought to my room?
+room-service,How do I order pasta to my room?
+room-service,Do you offer desserts with room service?
+room-service,Can my order be adjusted for dietary restrictions?
+room-service,Is there a kids' menu I can order from?
+room-service,Can food be brought to the conference room?
+room-service,What vegetarian options are there?
+room-service,How do I request food delivery?
+room-service,Can I get room service right now?
+room-service,Is there an option to order food to my room?
+room-service,Can I get room service delivered to my room?
+room-service,How can I order breakfast through room service?
+room-service,Is lunch available for room service?
+room-service,Can I order dinner to my room?
+room-service,How do I get a meal delivered to my room?
+room-service,Can I get a snack delivered?
+room-service,How do I order a drink through room service?
+room-service,Can I get coffee delivered to my room?
+room-service,Is it possible to order tea?
+room-service,Can I have a sandwich brought to my room?
+room-service,Are salads available for room service?
+room-service,Can I order a burger to my room?
+room-service,How do I get pizza delivered?
+room-service,Is pasta available through room service?
+room-service,How do I get dessert delivered to my room?
+room-service,Can my meal be customized?
+room-service,Do you provide a kids' menu?
+room-service,Can I get room service in the conference room?
+room-service,What are the vegetarian choices?
+room-service,How do I place a food order with room service?
+room-service,Can I get food delivered via room service?
+room-service,Is room service available for my room?
+room-service,How do I get food to my room?
+room-service,Can I have breakfast brought to my room?
+room-service,Is lunch available for room delivery?
+room-service,Can dinner be delivered to my room?
+room-service,How do I request a meal through room service?
+room-service,Can I order a snack to my room?
+room-service,How do I get drinks delivered?
+room-service,Is coffee available through room service?
+room-service,Can I have tea delivered?
+room-service,How do I get a sandwich via room service?
+room-service,Is it possible to order a salad?
+room-service,Can I have a burger delivered to my room?
+room-service,How do I get pizza brought to my room?
+room-service,Can I order pasta for delivery?
+room-service,Is dessert available through room service?
+room-service,Can my room service order be customized for my diet?
+room-service,Do you have a menu for kids?
+room-service,Can room service be delivered to the conference room?
+room-service,What are the vegetarian room service options?
+room-service,Get me
+room-service,Bring me
+room-service,Deliver me
+room-service,Send me
+room-service,Order me a meal
+room-service,Order me a snack
+room-service,Order me a drink
+room-service,Order me a coffee

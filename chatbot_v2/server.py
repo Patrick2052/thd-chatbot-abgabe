@@ -35,7 +35,10 @@ async def handler(websocket):
     try:
 
         async for message in websocket:
-            await session.chatbot.handle_message(message)
+            try:
+                await session.chatbot.handle_message(message)
+            except:
+                await session.chatbot.websocket.send("Sorry I didn't get that can you rephrase that?")
 
             # await websocket.send(message)
 
@@ -49,9 +52,9 @@ async def handler(websocket):
         print("disconnect: ", sessions[websocket])
         del sessions[websocket]
 
-
+print("starting server...")
 start_server = websockets.serve(handler, HOST, PORT)
-print(f"running on {HOST}:{PORT}")
+print(f"running on ws://{HOST}:{PORT}")
 
 # Run the server indefinitely
 asyncio.get_event_loop().run_until_complete(start_server)

@@ -1,0 +1,5 @@
+I didn't quite understand what you want to do. Could you rephrase that? \n Please choose one of facilities, wake up call, appointment with travel agent, check in, departure.
+I'm sorry, I didn't catch that. Could you please try again? \n Please choose one of facilities, wake up call, appointment with travel agent, check in, departure.
+I'm afraid I don't have the information you're looking for. \n Please choose one of facilities, wake up call, appointment with travel agent, check in, departure.
+Apologies, but I'm not able to assist with that request. \n Please choose one of facilities, wake up call, appointment with travel agent, check in, departure.
+I'm still learning and may not understand your query. Can you provide more details? \n Please choose one of facilities, wake up call, appointment with travel agent, check in, departure.

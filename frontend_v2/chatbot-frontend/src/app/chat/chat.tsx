@@ -123,7 +123,7 @@ const Chat: React.FC<ChatProps> = (
 	};
 
 	return (
-		<section className="min-h-[80dvh] h-[80dvh] bg-slate-300 flex">
+		<section className="min-h-[80dvh] h-[90dvh] bg-slate-300 flex">
 			<div className="flex flex-col max-w-[1000px] w-full mx-auto justify-end p-12">
 				<section
 					id="chat-messages"
@@ -173,18 +173,54 @@ const Chat: React.FC<ChatProps> = (
 					</ul>
 				</section>
 				<div className="mx-auto w-full mb-4 mt-8">
-					<div className="flex justify-between gap-2 items-center">
-						<span>
+					<div className="flex justify-between gap-2 items-center text-sm flex-wrap">
+						<span className="md:flex-grow-0 flex-grow">
 							current workflow: <b>{conversationIntent}</b>
 						</span>
 						<button
-							className="bg-red-100 text-red-700 p-2 rounded-xl "
+							className="bg-red-100 text-red-700 p-1 md:p-2 rounded-xl md:flex-grow-0 w-full sm:w-fit flex-grow"
 							onClick={() => forceReset()}
 						>
 							reset conversation
 						</button>
 					</div>
-					<form className="flex" onSubmit={handleSubmit}>
+					<form
+						className="flex flex-col gap-2 mt-2 md:hidden"
+						onSubmit={handleSubmit}
+					>
+						<input
+							onChange={(e) => setInputValue(e.target.value)}
+							value={inputValue}
+							type="text"
+							className="w-full rounded-xl p-4 bg-slate-600 placeholder-slate-100 placeholder-opacity-60 text-slate-100"
+							placeholder="Type a message..."
+						/>
+						<button
+							className="bg-blue-500 flex gap-2 justify-center text-white rounded-xl p-2 px-4"
+							type="submit"
+							// disabled={inputValue !== ""}
+						>
+							<span className="sm:block hidden">Send</span>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								strokeWidth={1.5}
+								stroke="currentColor"
+								className="size-6"
+							>
+								<path
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5"
+								/>
+							</svg>
+						</button>
+					</form>
+					<form
+						className="hidden md:flex mt-2"
+						onSubmit={handleSubmit}
+					>
 						<input
 							onChange={(e) => setInputValue(e.target.value)}
 							value={inputValue}
@@ -193,11 +229,24 @@ const Chat: React.FC<ChatProps> = (
 							placeholder="Type a message..."
 						/>
 						<button
-							className="bg-blue-500 text-white rounded-r-xl p-2 px-4"
+							className="bg-blue-500 text-white rounded-r-xl p-2 px-4 hover:bg-blue-600 transition-all"
 							type="submit"
 							// disabled={inputValue !== ""}
 						>
-							Send
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								strokeWidth={1.5}
+								stroke="currentColor"
+								className="size-6"
+							>
+								<path
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5"
+								/>
+							</svg>
 						</button>
 					</form>
 				</div>

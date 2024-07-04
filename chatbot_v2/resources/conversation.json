@@ -20,7 +20,8 @@
                     "booking-number",
                     "first-name",
                     "last-name"
-                ]
+                ],
+                "final_response": "Great you are checked in. Enjoy your stay!"
             },
             "check-out": {
                 "name": "check-out",
@@ -50,7 +51,8 @@
                 "enteties": [
                     "room-number",
                     "check-out-time"
-                ]
+                ],
+                "final_response": "Great you are checked out. Have a nice day and a save journey home!"
             },
             "wake-up-call": {
                 "name": "wake-up-call",
@@ -63,7 +65,8 @@
                 "enteties": [
                     "room-number",
                     "wake-up-time"
-                ]
+                ],
+                "final_response": "Your wake up call is scheduled with the following parameters. Have a good night!"
             },
             "tourist": {
                 "name": "tourist",
@@ -112,7 +115,8 @@
                     "location",
                     "travel-date",
                     "appointment-time"
-                ]
+                ],
+                "final_response": "Great! I have forwarded your request to our staff. You will hear from them shortly. Have a nice trip!"
             },
             "facilities": {
                 "name": "facilities",
@@ -165,7 +169,8 @@
                 ],
                 "enteties": [
                     "facility"
-                ]
+                ],
+                "final_response": "Here is the information you requested. Enjoy your stay!"
             },
             "room-service": {
                 "name": "room-service",
@@ -179,7 +184,8 @@
                     "room-number",
                     "room-service-time",
                     "meal"
-                ]
+                ],
+                "final_response": "Your order is placed. We will knock on your door at the requested time. Enjoy your meal!"
             }
     },
     "enteties": {
@@ -216,7 +222,7 @@
         "location": {
             "name": "location",
             "text": [
-                "Tell me the location"
+                "Tell me the location you would like to visit."
             ]
         },
         "boolean": {

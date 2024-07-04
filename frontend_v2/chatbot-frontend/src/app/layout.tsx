@@ -24,7 +24,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={inter.className}>
 				<header className="flex w-full justify-between px-8 h-20 items-center">
-					<div className="flex gap-4 items-center">
+					<div className="flex gap-4 items-center hidden sm:flex">
 						<Image
 							src="/logo.png"
 							alt="Logo"

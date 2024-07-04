@@ -4,6 +4,9 @@ import spacy
 from spacy.tokens import Doc
 import json
 from utils import predict_intent
+import random
+
+CHATFLOW_URI = "./resources/conversation.json"
 
 
 nlp = spacy.load("en_core_web_sm")
@@ -14,6 +17,7 @@ class Intent(BaseModel):
     text: List[str]
     keywords: List[str]
     enteties: List[str]
+    final_response: str | None = None
 
 
 class Entety(BaseModel):
@@ -73,7 +77,7 @@ def get_lemmas_single(text: str, filter_stop_etc=True) -> List[str]:
 
 
 #! initialize the chat conversation flow datastructure
-with open('/home/patrick/projects/thd-chatbot-project/chatbot_v2/resources/conversation.json', "r", encoding="utf-8") as f:
+with open(CHATFLOW_URI, "r", encoding="utf-8") as f:
     chat_data = json.load(f)
     # prepare dataset
     try:
@@ -116,9 +120,32 @@ MAIN_GREETING = """
     
     """
 
+SECONDARY_GREETING = """
+    What else can i help you with? \n
+    \n
+
+    \t - Point you to hotel facilities \n
+    \t - Schedule a wake up call \n
+    \t - Schedule a appointment with our travel agent \n
+    \t - Manage your arrival and check-in \n
+    \t - Help you with departure and check-out \n
+    
+
+    \n
+    just pick one of these and we can get started.
+    
+    """
+
 FALLBACK = """
     I didn't quite understand what you want to do. Could you rephrase that?
 """
+FALLBACKS = [
+    "I didn't quite understand what you want to do. Could you rephrase that?"
+]
+
+with open('./resources/fallback.txt', "r", encoding="utf-8") as f:
+    for line in f:
+        FALLBACKS.append(line.strip().replace("\\n", "\n"))
 
 
 class Chatbot():
@@ -158,7 +185,7 @@ class Chatbot():
             if action == "reset":
                 await self.send_response("Sorry for messing this up \n Resetting the conversation to base state...")
                 await self.reset_to_default_chat_state()
-                await self.send_response(MAIN_GREETING)
+                await self.send_response(SECONDARY_GREETING)
             return
 
         self.append_chat_message(message)
@@ -173,7 +200,7 @@ class Chatbot():
             possible_intents, best_intent = self.infer_base_intent(
                 message.text)
             if not best_intent:
-                await self.send_response(FALLBACK)
+                await self.send_response(random.choice(FALLBACKS))
             else:
                 # print(f"-- new active intent -> {best_intent['intent']}")
                 self.current_active_intent = best_intent['intent']
@@ -228,15 +255,18 @@ class Chatbot():
                 # ! ######################
 
                 # ! there is no needed entity - present result
+
+                await self.send_response(self.current_active_intent.final_response)
+
                 res = ""
                 for ent in self.captured_enteties:
                     res += f"{ent.base_entety.name}:{ent.captured_info}, \n"
 
                 await self.send_response(res)
-                await self.send_response(
-                    f"################# end of conversation (reset) #########################")
+                # await self.send_response(
+                #     f"################# end of conversation (reset) #########################")
 
-                await self.send_response(MAIN_GREETING)
+                await self.send_response(SECONDARY_GREETING)
                 await self.reset_to_default_chat_state()
                 return
 

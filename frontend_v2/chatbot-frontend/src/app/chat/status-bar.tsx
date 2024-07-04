@@ -15,7 +15,7 @@ const StatusBar: React.FC<StatusBarProps> = ({
 	// Add your component logic here
 	return (
 		<div
-			className={`p-2 text-sm rounded-xl ${
+			className={`p-1 text-[10px] rounded-xl ${
 				connected
 					? "bg-green-200 text-green-500"
 					: "bg-red-200 text-red-500"

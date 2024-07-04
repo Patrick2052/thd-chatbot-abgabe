@@ -1,0 +1,23 @@
+services:
+  backend:
+    image: patrickmain246/thd-chatbot-patrick-huebler:backend
+    environment:
+      - HOST=localhost
+      - PORT=8765
+    ports:
+      - "8765:8765"
+    build: ../../chatbot_v2
+    network_mode: "host"
+  fronted:
+    image: patrickmain246/thd-chatbot-patrick-huebler:frontend
+    environment:
+      - NEXT_PUBLIC_CHAT_ENDPOINT=localhost:8765
+      - PORT=3000
+      - HOST=localhost
+    ports:
+      - "3000:3000"
+    network_mode: "host"
+
+networks: 
+  chatbot_network:
+    driver: bridge
